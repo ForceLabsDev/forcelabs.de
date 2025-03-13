@@ -21,12 +21,12 @@ export const Layout = ({ children }: Props) => {
             <div className="header-item header-item__logo">
               <div className="logo">
                 <Link href="/">
-                  <a>ForceLabs</a>
+                  ForceLabs
                 </Link>
               </div>
               <div className="sublogo">
                 <Link href="/">
-                  <a>grants you the force.</a>
+                  grants you the force.
                 </Link>
               </div>
             </div>
@@ -43,11 +43,11 @@ export const Layout = ({ children }: Props) => {
           <div>
             &copy; 2009 - {new Date().getFullYear()}{" "}
             <Link href="/">
-              <a>ForceLabs</a>
+              ForceLabs
             </Link>{" "}
             |{" "}
             <Link href="/impressum">
-              <a>Impressum</a>
+              Impressum
             </Link>
           </div>
         </footer>

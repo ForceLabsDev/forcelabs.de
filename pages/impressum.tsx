@@ -16,7 +16,7 @@ const Impressum: NextPage = () => {
           <br />
           <p>
             <strong>Kontakt:</strong> <br />
-            E-Mail: lennart.franke.de [at] gmail.com
+            E-Mail: admin [at] lennartfranke.io
             <br />
           </p>
         </div>
