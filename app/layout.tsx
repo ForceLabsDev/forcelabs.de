@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import {Metadata, Viewport} from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import "../styles/style.css";
 
@@ -56,6 +57,7 @@ export default function Layout({children}: Props) {
                 </div>
             </footer>
         </div>
+        <SpeedInsights />
         </body>
         </html>
     );
