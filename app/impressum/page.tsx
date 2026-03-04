@@ -12,7 +12,7 @@ export default function Page() {
                     <br/>
                     <p>
                         <strong>Kontakt:</strong> <br/>
-                        E-Mail: admin [at] lennartfranke.io
+                        E-Mail: admin [at] forcelabs.dev
                         <br/>
                     </p>
                 </div>
