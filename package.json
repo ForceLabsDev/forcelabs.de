@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@vercel/speed-insights": "^2",
-    "next": "~16.0.11",
+    "next": "~16.3",
     "react": "~19.2.9",
     "react-dom": "~19.2.9"
   },
