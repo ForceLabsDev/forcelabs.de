@@ -11,12 +11,6 @@ export default function Page() {
                     <h2>Weitere Informationen</h2>
                     <ul>
                         <li>
-                            Besuche uns auf GitHub:{" "}
-                            <a href="https://github.com/ForceLabsDev">
-                                github.com/ForceLabsDev
-                            </a>
-                        </li>
-                        <li>
                             Das &raquo;ForceCMS&laquo; erhält momentan keinen Support mehr und
                             kann nicht mehr heruntergeladen werden.
                         </li>
