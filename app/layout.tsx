@@ -42,7 +42,7 @@ export default function Layout({children}: Props) {
                 </div>
             </header>
 
-            <div className="main-container">{children}</div>
+            <main className="main-container">{children}</main>
 
             <footer className="footer-container">
                 <div>
