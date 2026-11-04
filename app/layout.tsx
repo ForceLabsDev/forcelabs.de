@@ -51,8 +51,8 @@ export default function Layout({children}: Props) {
                         ForceLabs
                     </Link>{" "}
                     |{" "}
-                    <Link href="/impressum">
-                        Impressum
+                    <Link href="/kontakt">
+                        Kontakt
                     </Link>
                 </div>
             </footer>
