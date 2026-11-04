@@ -3,7 +3,7 @@ export default function Page() {
         <>
             <div className="info-item">
                 <div className="info-item__inner">
-                    <strong>Wir machen neues Zeug!</strong>
+                    Wir machen neues Zeug!
                 </div>
             </div>
             <div className="content-item full-item">
