@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agents": {
+    "reviewer": {
+      "description": "Review code changes for correctness, security, missing tests, and style before committing",
+      "mode": "subagent",
+      "system": "You are a code review agent. Always read the full diff first, then analyze the code for bugs, security issues, missing tests, performance problems, and style violations. Never make edits. After any review, remind the user to run `pnpm lint` and `pnpm build`."
+    }
+  }
+}
