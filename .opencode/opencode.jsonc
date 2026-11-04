@@ -26,5 +26,12 @@
       "mode": "subagent",
       "system": "You are a code review agent. Always read the full diff first, then analyze the code for bugs, security issues, missing tests, performance problems, and style violations. Never make edits. After any review, remind the user to run `pnpm lint` and `pnpm build`."
     }
-  }
+  },
+  "permissions": [
+    { "action": "subagent", "resource": "builder", "effect": "allow" },
+    { "action": "subagent", "resource": "security", "effect": "allow" },
+    { "action": "subagent", "resource": "refactor", "effect": "allow" },
+    { "action": "subagent", "resource": "reviewer", "effect": "allow" },
+    { "action": "subagent", "resource": "content", "effect": "ask" }
+  ]
 }
